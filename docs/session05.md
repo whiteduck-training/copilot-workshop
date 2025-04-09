@@ -382,4 +382,6 @@ https://github.com/whiteducksoftware/flock
   
 https://github.com/ggml-org/llama.cpp
 
+Looking at how the tech will develop (high context models - gemini 2.5)
+
 Answering your questions
