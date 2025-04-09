@@ -4,16 +4,16 @@
 
 ```mermaid
 graph LR
-    A[1. Treat AI as a Skilled Intern] --> B[2. Structure Your Approach]
-    B --> C[3. Create Specialized Prompts]
-    C --> D[4. Maintain Context]
-    D --> E[5. Review & Refine]
+    A[Treat AI as a Skilled Intern] --> B[Structure Your Approach]
+    B --> C[Create Specialized Prompts]
+    C --> D[Maintain Context]
+    D --> E[Review & Refine]
     
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
-    style C fill:#bfb,stroke:#333,stroke-width:2px
-    style D fill:#fbf,stroke:#333,stroke-width:2px
-    style E fill:#fbb,stroke:#333,stroke-width:2px
+    style A fill:#f9f,stroke:#333,stroke-width:2px,color:#000
+    style B fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style C fill:#bfb,stroke:#333,stroke-width:2px,color:#000
+    style D fill:#fbf,stroke:#333,stroke-width:2px,color:#000
+    style E fill:#fbb,stroke:#333,stroke-width:2px,color:#000
 ```
 
 ### Key Takeaways
@@ -31,25 +31,7 @@ graph LR
 
 The biggest mistake developers make is falling into the **Schrödinger's AI Paradox**: simultaneously believing AI is too limited for serious development work, yet expecting it to implement impossibly complex systems.
 
-```mermaid
-graph TD
-    A[Developer Mindset] --> B{Schrödinger's AI Paradox}
-    B -->|Paradox Side 1| C[AI is too limited]
-    B -->|Paradox Side 2| D[AI should implement complex systems]
-    
-    C --> E[Dismisses AI potential]
-    D --> F[Unrealistic expectations]
-    
-    E --> G[Missed opportunities]
-    F --> H[Frustration & disappointment]
-    
-    I[Balanced View] --> J[Treats AI as skilled intern]
-    J --> K[Provides proper guidance]
-    K --> L[Successful collaboration]
-    
-    style B fill:#f9f,stroke:#333,stroke-width:2px
-    style I fill:#bfb,stroke:#333,stroke-width:2px
-```
+
 
 ### Common Ineffective Approaches
 
@@ -110,9 +92,9 @@ graph TD
     F --> G[Refinement]
     G -->|Feedback Loop| A
     
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
-    style C fill:#bfb,stroke:#333,stroke-width:2px
+    style A fill:#f9f,stroke:#333,stroke-width:2px,color:#000
+    style B fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style C fill:#bfb,stroke:#333,stroke-width:2px,color:#000
 ```
 
 #### 1. Generate Project Specifications / High-Level Requirements

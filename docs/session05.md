@@ -28,12 +28,12 @@ graph TD
     K -.-> E
     L -.-> F
     
-    style A fill:#bbf,stroke:#333,stroke-width:2px
-    style B fill:#bfb,stroke:#333,stroke-width:2px
-    style C fill:#fbf,stroke:#333,stroke-width:2px
-    style D fill:#fbb,stroke:#333,stroke-width:2px
-    style E fill:#bff,stroke:#333,stroke-width:2px
-    style F fill:#ff9,stroke:#333,stroke-width:2px
+    style A fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style B fill:#bfb,stroke:#333,stroke-width:2px,color:#000
+    style C fill:#fbf,stroke:#333,stroke-width:2px,color:#000
+    style D fill:#fbb,stroke:#333,stroke-width:2px,color:#000
+    style E fill:#bff,stroke:#333,stroke-width:2px,color:#000
+    style F fill:#ff9,stroke:#333,stroke-width:2px,color:#000
 ```
 
 ## Testing Your Implementation

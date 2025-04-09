@@ -23,11 +23,11 @@ flowchart LR
     H -->|Continuous Improvement| I[New Templates]
     I --> C
     
-    style B fill:#f9f,stroke:#333,stroke-width:2px
-    style D fill:#bbf,stroke:#333,stroke-width:2px
-    style E fill:#bfb,stroke:#333,stroke-width:2px
-    style F fill:#fbb,stroke:#333,stroke-width:2px
-    style G fill:#fbf,stroke:#333,stroke-width:2px
+    style B fill:#f9f,stroke:#333,stroke-width:2px,color:#000
+    style D fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style E fill:#bfb,stroke:#333,stroke-width:2px,color:#000
+    style F fill:#fbb,stroke:#333,stroke-width:2px,color:#000
+    style G fill:#fbf,stroke:#333,stroke-width:2px,color:#000
 ```
 
 ### Key Benefits of Specialized Prompts

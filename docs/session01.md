@@ -51,14 +51,14 @@ graph TD
         C1[Specifications] --> C2[Epics] --> C3[User Stories] --> C4[Tasks]
     end
     
-    style A1 fill:#bfb,stroke:#333,stroke-width:2px
-    style B1 fill:#f9f,stroke:#333,stroke-width:2px
-    style B2 fill:#bbf,stroke:#333,stroke-width:2px
-    style B3 fill:#bfb,stroke:#333,stroke-width:2px
-    style C1 fill:#f9f,stroke:#333,stroke-width:2px
-    style C2 fill:#fbb,stroke:#333,stroke-width:2px
-    style C3 fill:#bbf,stroke:#333,stroke-width:2px
-    style C4 fill:#bfb,stroke:#333,stroke-width:2px
+    style A1 fill:#bfb,stroke:#333,stroke-width:2px,color:#000
+    style B1 fill:#f9f,stroke:#333,stroke-width:2px,color:#000
+    style B2 fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style B3 fill:#bfb,stroke:#333,stroke-width:2px,color:#000
+    style C1 fill:#f9f,stroke:#333,stroke-width:2px,color:#000
+    style C2 fill:#fbb,stroke:#333,stroke-width:2px,color:#000
+    style C3 fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style C4 fill:#bfb,stroke:#333,stroke-width:2px,color:#000
 ```
 
 #### Minimal Approach: Tasks Only
