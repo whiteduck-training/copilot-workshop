@@ -374,4 +374,12 @@ Creating rules out of our prompt templates
 
 Looking at some complex real world scenarios
 
+- Using these principles in the dev process of our agent framework Flock
+
+https://github.com/whiteducksoftware/flock
+  
+- Using these principles to navigate complex codebases: llama.cpp
+  
+https://github.com/ggml-org/llama.cpp
+
 Answering your questions
