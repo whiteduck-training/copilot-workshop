@@ -49,6 +49,32 @@ This ensures the AI builds a mental model of your project before attempting to i
 
 Once the AI understands the project context, you can direct it to implement specific tasks.
 
+```mermaid
+sequenceDiagram
+    actor Dev as Developer
+    participant AI as AI Assistant
+    participant Code as Codebase
+    participant PM as Project Management
+    
+    Dev->>AI: Establish Context (@context.md)
+    AI->>PM: Read Project Docs
+    AI->>Code: Analyze Current Code
+    AI-->>Dev: Summarize Understanding
+    
+    Dev->>AI: Request Implementation (@implement.md)
+    AI->>PM: Read Task Details
+    AI-->>Dev: Propose Implementation Plan
+    Dev->>AI: Approve Plan
+    
+    AI->>Code: Implement Code (Chunk 1)
+    Dev->>AI: Feedback
+    AI->>Code: Implement Code (Chunk 2)
+    Dev->>AI: Feedback
+    
+    AI->>PM: Update Task Status
+    AI-->>Dev: Suggest Tests
+```
+
 ### Implementation Request Template
 
 Create an `@implement.md` template:

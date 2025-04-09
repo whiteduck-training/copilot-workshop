@@ -6,6 +6,30 @@ In this session, we'll explore how to continuously improve your AI collaboration
 
 As your project matures, different scenarios will require specialized handling. Creating dedicated prompt templates allows you to quickly activate specific AI behaviors without lengthy explanations each time.
 
+```mermaid
+flowchart LR
+    A[Project Starts] --> B[Base Templates]
+    B --> C{Development Stage}
+    C -->|New Feature| D[new-feature.md]
+    C -->|Code Issues| E[refactor.md]
+    C -->|Bug Found| F[bug-fix.md]
+    C -->|Quality Review| G[code-review.md]
+    
+    D --> H[Updated Project State]
+    E --> H
+    F --> H
+    G --> H
+    
+    H -->|Continuous Improvement| I[New Templates]
+    I --> C
+    
+    style B fill:#f9f,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
+    style E fill:#bfb,stroke:#333,stroke-width:2px
+    style F fill:#fbb,stroke:#333,stroke-width:2px
+    style G fill:#fbf,stroke:#333,stroke-width:2px
+```
+
 ### Key Benefits of Specialized Prompts
 - **Consistency** across multiple sessions and team members
 - **Efficiency** by reducing repetitive instructions

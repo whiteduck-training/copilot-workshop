@@ -37,6 +37,30 @@ Different projects require different levels of structure. Let's explore how to d
 
 ### Common Layer Structures
 
+```mermaid
+graph TD
+    subgraph "Minimal Approach"
+        A1[Tasks Only]
+    end
+    
+    subgraph "Standard Approach"
+        B1[Specifications] --> B2[User Stories] --> B3[Tasks]
+    end
+    
+    subgraph "Comprehensive Approach"
+        C1[Specifications] --> C2[Epics] --> C3[User Stories] --> C4[Tasks]
+    end
+    
+    style A1 fill:#bfb,stroke:#333,stroke-width:2px
+    style B1 fill:#f9f,stroke:#333,stroke-width:2px
+    style B2 fill:#bbf,stroke:#333,stroke-width:2px
+    style B3 fill:#bfb,stroke:#333,stroke-width:2px
+    style C1 fill:#f9f,stroke:#333,stroke-width:2px
+    style C2 fill:#fbb,stroke:#333,stroke-width:2px
+    style C3 fill:#bbf,stroke:#333,stroke-width:2px
+    style C4 fill:#bfb,stroke:#333,stroke-width:2px
+```
+
 #### Minimal Approach: Tasks Only
 ```
 .project/

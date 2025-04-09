@@ -1,5 +1,28 @@
 # Optimizing the use of AI productivity tools
 
+## Quick Start Guide
+
+```mermaid
+graph LR
+    A[1. Treat AI as a Skilled Intern] --> B[2. Structure Your Approach]
+    B --> C[3. Create Specialized Prompts]
+    C --> D[4. Maintain Context]
+    D --> E[5. Review & Refine]
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bfb,stroke:#333,stroke-width:2px
+    style D fill:#fbf,stroke:#333,stroke-width:2px
+    style E fill:#fbb,stroke:#333,stroke-width:2px
+```
+
+### Key Takeaways
+- **Mental Model**: Think of AI as a skilled intern who needs proper guidance, not a mind reader or a coding wizard
+- **Project Structure**: Use text-based hierarchical project management (specifications → user stories → tasks)
+- **Context Preservation**: Store prompts and project docs in version control for reuse and sharing
+- **Specialized Templates**: Create dedicated prompts for different development scenarios (new features, refactoring, bug fixes)
+- **Progressive Refinement**: Continuously improve your templates and process based on what works best
+
 ## Introduction and Planning Approach
 
 ---
@@ -7,6 +30,26 @@
 ## The Schrödinger's AI Paradox
 
 The biggest mistake developers make is falling into the **Schrödinger's AI Paradox**: simultaneously believing AI is too limited for serious development work, yet expecting it to implement impossibly complex systems.
+
+```mermaid
+graph TD
+    A[Developer Mindset] --> B{Schrödinger's AI Paradox}
+    B -->|Paradox Side 1| C[AI is too limited]
+    B -->|Paradox Side 2| D[AI should implement complex systems]
+    
+    C --> E[Dismisses AI potential]
+    D --> F[Unrealistic expectations]
+    
+    E --> G[Missed opportunities]
+    F --> H[Frustration & disappointment]
+    
+    I[Balanced View] --> J[Treats AI as skilled intern]
+    J --> K[Provides proper guidance]
+    K --> L[Successful collaboration]
+    
+    style B fill:#f9f,stroke:#333,stroke-width:2px
+    style I fill:#bfb,stroke:#333,stroke-width:2px
+```
 
 ### Common Ineffective Approaches
 
@@ -56,6 +99,21 @@ The right communication approach with AI tools makes all the difference:
 > **Important Note:** AI capabilities are improving rapidly, so best practices are evolving week by week!
 
 ### Basic Framework
+
+```mermaid
+graph TD
+    A[Project Specifications] --> B[User Stories]
+    B --> C[Tasks]
+    C --> D[Implementation]
+    D --> E[Testing]
+    E --> F[Documentation]
+    F --> G[Refinement]
+    G -->|Feedback Loop| A
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bfb,stroke:#333,stroke-width:2px
+```
 
 #### 1. Generate Project Specifications / High-Level Requirements
 
